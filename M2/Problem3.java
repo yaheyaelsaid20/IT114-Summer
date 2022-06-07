@@ -1,3 +1,5 @@
+package M2;
+
 import java.util.Arrays;
 
 public class Problem3 {
@@ -21,7 +23,19 @@ public class Problem3 {
         //TODO convert each value to positive
         //set the result to the proper index of the output array
         //hint: don't forget to handle the data types properly
-        
+        Integer[] a3= a3;
+        Integer[] a4= a4;
+        for (int i=0;i<arr.length;i++){
+    
+             if(arr[i]<1){
+                System.out.println(arr[i] * -1);
+            }
+            else if(arr[i]>1)
+                System.out.println(arr[i]);;
+        }
+
+
+
         //end edit section
 
         StringBuilder sb = new StringBuilder();

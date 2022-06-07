@@ -1,3 +1,4 @@
+package M2;
 
 import java.util.Arrays;
 
@@ -16,10 +17,14 @@ public class Problem2 {
     }
     static void getTotal(double[] arr){
         System.out.println("Processing Array:" + Arrays.toString(arr));
-        double total = 0;
+        double total = 0d;
         String totalOutput = "";
         //TODO add/edit code here
-       
+        for (int i=0;i<arr.length;i++){
+            total+=arr[i];
+            double newTotal= total;
+        }
+        double newTotal= total;
         //set the double to a string variable
         totalOutput = total+"";
         //end add/edit section
