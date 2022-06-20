@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class NumberGuesser4 {
+public class NumberGuesserr4 {
     private int maxLevel = 1;
     private int level = 1;
     private int strikes = 0;
@@ -100,7 +100,7 @@ public class NumberGuesser4 {
             System.out.println("Tired of playing? No problem, see you next time.");
             processed = true;
         }
-        //TODO add other conditions here
+        
         return processed;
     }
 
@@ -130,6 +130,23 @@ public class NumberGuesser4 {
                 pickNewRandom = true;
             }
         }
+        if (guess>number){
+            System.out.println("You guessed higher");
+        }
+        if (guess<number){
+            System.out.println("You guessed lower");
+        }
+        if (Math.abs(guess-number)>7){
+            System.out.println("Your guess is cold");
+        }
+        if (Math.abs(guess-number)==4){
+            System.out.println("Your guess is warm");
+        }
+        if (Math.abs(guess-number)<=2){
+            System.out.println("Your guess is hot");
+        }
+
+        
     }
 
     private int strToNum(String message) {
@@ -177,9 +194,10 @@ public class NumberGuesser4 {
         }
         System.out.println("Thanks for playing!");
     }
+    
 
     public static void main(String[] args) {
-        NumberGuesser4 ng = new NumberGuesser4();
+        NumberGuesserr4 ng = new NumberGuesserr4();
         ng.start();
     }
 }
