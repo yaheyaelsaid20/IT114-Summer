@@ -23,10 +23,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.ScrollPaneConstants;
 
-import Module7.Part9.client.Card;
-import Module7.Part9.client.Client;
-import Module7.Part9.client.ClientUtils;
-import Module7.Part9.client.ICardControls;
+
 
 public class ChatPanel extends JPanel {
     private static Logger logger = Logger.getLogger(ChatPanel.class.getName());

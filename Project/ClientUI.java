@@ -18,12 +18,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import Module7.Part9.client.views.ChatPanel;
-import Module7.Part9.client.views.ConnectionPanel;
-import Module7.Part9.client.views.Menu;
-import Module7.Part9.client.views.RoomsPanel;
-import Module7.Part9.client.views.UserInputPanel;
-import Module7.Part9.common.Constants;
+
 
 public class ClientUI extends JFrame implements IClientEvents, ICardControls {
     CardLayout card = null;// accessible so we can call next() and previous()

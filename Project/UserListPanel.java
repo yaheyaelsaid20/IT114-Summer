@@ -15,8 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ScrollPaneConstants;
 
-import Module7.Part9.client.ClientUtils;
-import Module7.Part9.client.ICardControls;
+
 
 public class UserListPanel extends JPanel {
     JPanel userListArea;

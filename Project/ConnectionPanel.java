@@ -6,8 +6,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import Module7.Part9.client.Card;
-import Module7.Part9.client.ICardControls;
 
 import java.awt.BorderLayout;
 

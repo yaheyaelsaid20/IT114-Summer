@@ -8,9 +8,7 @@ import java.net.UnknownHostException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Module7.Part9.common.Payload;
-import Module7.Part9.common.PayloadType;
-import Module7.Part9.common.RoomResultPayload;
+
 
 //Enum Singleton: https://www.geeksforgeeks.org/advantages-and-disadvantages-of-using-enum-as-singleton-in-java/
 public enum Client {

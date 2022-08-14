@@ -20,9 +20,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 import javax.swing.ScrollPaneConstants;
 
-import Module7.Part9.client.Client;
-import Module7.Part9.client.ICardControls;
-import Module7.Part9.client.Card;
+
 
 public class RoomsPanel extends JPanel {
     JPanel container;

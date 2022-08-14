@@ -7,9 +7,7 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import Module7.Part9.common.Payload;
-import Module7.Part9.common.PayloadType;
-import Module7.Part9.common.RoomResultPayload;
+
 
 /**
  * A server-side representation of a single client
@@ -119,10 +117,10 @@ public class ServerThread extends Thread {
         return send(p);
     }
 
-    public boolean sendMessage(long clientId, String message) {
+    public boolean sendMessage(Long string, String message) {
         Payload p = new Payload();
         p.setPayloadType(PayloadType.MESSAGE);
-        p.setClientId(clientId);
+        p.setClientId(string);
         p.setMessage(message);
         return send(p);
     }
@@ -227,4 +225,6 @@ public class ServerThread extends Thread {
         }
         info("Thread cleanup() complete");
     }
+
+    
 }
